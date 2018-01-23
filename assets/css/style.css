@@ -1,0 +1,92 @@
+.navbarImage {
+  width: 219px;
+  margin-top: -30px;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.titleBold {
+  font-weight: 400;
+}
+
+.svgGetLogos {
+  height: 72px !important;
+}
+
+.topCol {
+  margin-bottom: 30px;
+}
+
+.titleButton {
+  font-size: 24px;
+  background: white !important;
+  color: black !important;
+  border-color: white !important;
+}
+
+.MultiCarousel {
+  float: left;
+  overflow: hidden;
+  padding: 15px;
+  width: 100%;
+  position: relative;
+}
+
+.MultiCarousel .MultiCarousel-inner {
+  transition: 1s ease all;
+  float: left;
+}
+
+.MultiCarousel .MultiCarousel-inner .item {
+  float: left;
+}
+
+.MultiCarousel .MultiCarousel-inner .item>div {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+
+  color: #666;
+  height: 282px;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.pad15 {
+  background-image: url("../img/get-50-off.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.MultiCarousel .leftLst, .MultiCarousel .rightLst {
+  position: absolute;
+  border-radius: 50%;
+  top: calc(50% - 20px);
+}
+
+.MultiCarousel .leftLst {
+  left: 0;
+}
+
+.MultiCarousel .rightLst {
+  right: 0;
+}
+
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over {
+  pointer-events: none;
+  background: #ccc;
+}
+
+.lead {
+  font-size: 23px;
+color: white;
+font-weight: 400;
+}
+
+.TransparentText {
+
+}

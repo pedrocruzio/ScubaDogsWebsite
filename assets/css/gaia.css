@@ -3,16 +3,16 @@
  =========================================================
  * Gaia Bootstrap Template - v1.0.1
  =========================================================
- 
+
  * Product Page: https://www.creative-tim.com/product/gaia-bootstrap-template
  * Copyright 2017 Creative Tim (http://www.creative-tim.com)
  * Licensed under MIT (https://github.com/creativetimofficial/gaia-bootstrap-template/blob/master/LICENSE.md)
- 
+
  =========================================================
- 
+
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
  */
- 
+
 /*      light colors         */
 html {
   font-size: 14px;
@@ -67,7 +67,7 @@ h6,
 .content-blog p {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: "Cambo", "Times New Roman", serif;
+
 }
 h1 a,
 .h1 a,
@@ -83,7 +83,7 @@ h6 a,
 .h6 a,
 .content-blog p a {
   font-size: inherit;
-  font-family: "Cambo", "Times New Roman", serif;
+
 }
 
 .content-blog {
@@ -144,7 +144,7 @@ td,
 small,
 .media h5,
 .subtitle {
-  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 
 a {
@@ -166,8 +166,8 @@ a:hover {
 }
 
 .title-modern {
-  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 200;
+
+  font-weight: 100;
 }
 
 .text-gray {
@@ -206,7 +206,6 @@ a:hover {
 .quotes:before, .quotes:after {
   position: absolute;
   font-size: 40px;
-  font-family: sans-serif;
   color: #777777;
   line-height: 0;
 }
@@ -330,6 +329,9 @@ body > .navbar-collapse a {
 
 .info-icon {
   text-align: center;
+  border: 2px solid #ddd;
+    border-radius: 4px;
+
 }
 .info-icon .icon {
   font-size: 62px;
@@ -669,9 +671,9 @@ a,
 
 .btn-white,
 .navbar .navbar-nav > li > a.btn-white {
-  border-color: #FFFFFF;
-  color: #FFFFFF;
-  opacity: .9;
+  border-color: #EF222B;
+  color: #EF222B;
+  opacity: 1;
 }
 .btn-white:hover, .btn-white:focus, .btn-white:active, .btn-white.active, .open > .btn-white.dropdown-toggle,
 .navbar .navbar-nav > li > a.btn-white:hover,
@@ -692,8 +694,8 @@ a,
 }
 .btn-white.btn-fill,
 .navbar .navbar-nav > li > a.btn-white.btn-fill {
-  color: #FFFFFF;
-  background-color: #FFFFFF;
+  color: #EF222B;
+  background-color: #EF222B;
   opacity: 1;
   filter: alpha(opacity=100);
 }
@@ -723,8 +725,8 @@ a,
 }
 .btn-white.btn-fill,
 .navbar .navbar-nav > li > a.btn-white.btn-fill {
-  color: #888888;
-  opacity: .9;
+  color: #FFFFFF;
+  opacity: 1;
 }
 .btn-white.btn-fill:hover, .btn-white.btn-fill:focus,
 .navbar .navbar-nav > li > a.btn-white.btn-fill:hover,
@@ -1114,7 +1116,7 @@ a,
   background: #50236F;
 }
 .filter.filter-color-red:before {
-  background: #de6168;
+
 }
 .filter.filter-gradient-black:before {
   background: #1f1c2c;
@@ -2009,7 +2011,7 @@ a,
 .section-header h1,
 .section-header-blog h1,
 .section-presentation-page h1 {
-  font-weight: 400;
+  font-weight: 200;
   font-size: 3.6em;
   text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.3), -2px 4px 2px rgba(0, 0, 0, 0.1);
 }
@@ -2204,7 +2206,8 @@ a,
   margin-bottom: 5px;
 }
 .client-logo h3 {
-  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
 }
 
 .section-team-1 {
