@@ -14,5 +14,16 @@
 }
 
 #testionials {
-  background-image: url('../img/testimonials-bg.jpg')
+  background-image: url('../img/testimonials-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.text-white {
+  color: white !important;
+}
+
+.text-weight-regular {
+  font-weight: normal;
 }
