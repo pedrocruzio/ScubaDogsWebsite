@@ -25,6 +25,10 @@ body {
   background: white !important;
   color: black !important;
   border-color: white !important;
+  border-radius: 16px !important;
+  padding-top: 5px;
+height: 50px;
+line-height: 1.6em !important;
 }
 
 .MultiCarousel {
@@ -132,13 +136,10 @@ font-weight: 400;
   }
 }
 
-/* .getDivingBackground {
-  background-image: url(../img/get-diving-bg.jpg) !important;
-   background-size: cover !important;
-   background-position: center !important;
-   background-repeat: no-repeat !important;
+ .getDivingBackground {
+  padding: 0 !important;
 
-} */
+}
 
 
 /* .getOffersBackground {
@@ -150,4 +151,17 @@ font-weight: 400;
 
     border-radius: 4px;
         height: 195px;
+}
+
+.whiteText {
+  color: white;
+}
+
+.bookNowSecondaryButton {
+  margin-top: 40px;
+}
+
+.brandIcon {
+  height: 100px;
+  width: auto !important;
 }

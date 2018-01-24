@@ -112,7 +112,7 @@ export default StyleSheet.create({
         "fontWeight": "600",
         "borderRadius": 3,
         "fontSize": 12,
-        "lineHeight": 1.6,
+        "lineHeight": 8,
         "opacity": 0.8,
         "filter": "alpha(opacity=80)",
         "paddingTop": 10,
@@ -595,7 +595,7 @@ export default StyleSheet.create({
         "fontWeight": "600",
         "borderRadius": 3,
         "fontSize": 12,
-        "lineHeight": 1.6,
+        "lineHeight": 8,
         "opacity": 0.8,
         "filter": "alpha(opacity=80)",
         "paddingTop": 10,
@@ -1176,13 +1176,15 @@ export default StyleSheet.create({
         "color": "#FFFFFF",
         "backgroundColor": "#EF222B",
         "opacity": 1,
-        "filter": "alpha(opacity=100)"
+        "filter": "alpha(opacity=100)",
+        "borderRadius": 2
     },
     "navbar navbar-nav > li > abtn-whitebtn-fill": {
         "color": "#FFFFFF",
         "backgroundColor": "#EF222B",
         "opacity": 1,
-        "filter": "alpha(opacity=100)"
+        "filter": "alpha(opacity=100)",
+        "borderRadius": 2
     },
     "btn-whitebtn-fill:hover": {
         "backgroundColor": "#FFFFFF",

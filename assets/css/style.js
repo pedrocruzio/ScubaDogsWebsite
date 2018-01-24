@@ -27,7 +27,11 @@ export default StyleSheet.create({
         "fontSize": 24,
         "background": "white !important",
         "color": "black !important",
-        "borderColor": "white !important"
+        "borderColor": "white !important",
+        "borderRadius": "16px !important",
+        "paddingTop": 5,
+        "height": 50,
+        "lineHeight": "1.6em !important"
     },
     "MultiCarousel": {
         "float": "left",
@@ -121,9 +125,25 @@ export default StyleSheet.create({
         "color": "black",
         "fontWeight": "500"
     },
+    "getDivingBackground": {
+        "paddingTop": 0,
+        "paddingRight": "!important",
+        "paddingBottom": 0,
+        "paddingLeft": "!important"
+    },
     "nfo-icon1": {
         "textAlign": "center",
         "borderRadius": 4,
         "height": 195
+    },
+    "whiteText": {
+        "color": "white"
+    },
+    "bookNowSecondaryButton": {
+        "marginTop": 40
+    },
+    "brandIcon": {
+        "height": 100,
+        "width": "auto !important"
     }
 });
