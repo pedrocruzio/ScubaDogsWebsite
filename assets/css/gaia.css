@@ -2778,8 +2778,8 @@ a,
     margin: 0;
   }
   .section-header .content h1 {
-    font-size: 4.5em;
-    letter-spacing: 0.07em;
+    font-size: 1.75em;
+    /* letter-spacing: 0.07em; */
     line-height: 1.7;
   }
   .section-header .content h1 span {
