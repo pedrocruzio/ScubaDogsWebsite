@@ -7,3 +7,12 @@
     text-align: center;
     margin: auto;
 }
+
+.quote-icon {
+  height: 64px;
+  width: auto;
+}
+
+#testionials {
+  background-image: url('../img/testimonials-bg.jpg')
+}
