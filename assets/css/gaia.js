@@ -425,7 +425,8 @@ export default StyleSheet.create({
     "info-icon": {
         "textAlign": "center",
         "border": "2px solid #ddd",
-        "borderRadius": 4
+        "borderRadius": 4,
+        "height": 195
     },
     "info-icon icon": {
         "fontSize": 62,

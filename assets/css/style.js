@@ -7,8 +7,9 @@ const {width, height, scale} = Dimensions.get("window"),
 
 export default StyleSheet.create({
     "navbarImage": {
-        "width": 219,
-        "marginTop": -30
+        "height": 54,
+        "width": "auto",
+        "marginTop": -20
     },
     "body": {
         "fontFamily": "'Lato', sans-serif"
@@ -92,5 +93,26 @@ export default StyleSheet.create({
         "color": "white",
         "fontWeight": "400"
     },
-    "TransparentText": {}
+    "TransparentText": {},
+    "productFirstRow": {
+        "marginTop": 30
+    },
+    "greenText": {
+        "color": "#26A022"
+    },
+    "blueText": {
+        "color": "#2544B1"
+    },
+    "blueLightText": {
+        "color": "#2CC3D9"
+    },
+    "redText": {
+        "color": "#2CC3D9"
+    },
+    "yellowText": {
+        "color": "#FA9A3D"
+    },
+    "blackText": {
+        "color": "black"
+    }
 });

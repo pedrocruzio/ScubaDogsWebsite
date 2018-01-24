@@ -91,3 +91,31 @@ font-weight: 400;
 .TransparentText {
 
 }
+
+.productFirstRow {
+  margin-top: 30px;
+}
+
+.greenText {
+  color: #26A022;
+}
+
+.blueText {
+  color: #2544B1;
+}
+
+.blueLightText {
+  color: #2CC3D9;
+}
+
+.redText {
+  color: #2CC3D9;
+}
+
+.yellowText {
+  color: #FA9A3D;
+}
+
+.blackText {
+  color: black;
+}
