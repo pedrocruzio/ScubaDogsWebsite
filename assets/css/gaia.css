@@ -331,6 +331,8 @@ body > .navbar-collapse a {
   text-align: center;
   border: 2px solid #ddd;
     border-radius: 4px;
+        height: 195px;
+        
 
 }
 .info-icon .icon {
