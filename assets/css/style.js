@@ -98,21 +98,32 @@ export default StyleSheet.create({
         "marginTop": 30
     },
     "greenText": {
-        "color": "#26A022"
+        "color": "#26A022",
+        "fontWeight": "500"
     },
     "blueText": {
-        "color": "#2544B1"
+        "color": "#2544B1",
+        "fontWeight": "500"
     },
     "blueLightText": {
-        "color": "#2CC3D9"
+        "color": "#2CC3D9",
+        "fontWeight": "500"
     },
     "redText": {
-        "color": "#2CC3D9"
+        "color": "#FF2A36",
+        "fontWeight": "500"
     },
     "yellowText": {
-        "color": "#FA9A3D"
+        "color": "#FA9A3D",
+        "fontWeight": "500"
     },
     "blackText": {
-        "color": "black"
+        "color": "black",
+        "fontWeight": "500"
+    },
+    "nfo-icon1": {
+        "textAlign": "center",
+        "borderRadius": 4,
+        "height": 195
     }
 });

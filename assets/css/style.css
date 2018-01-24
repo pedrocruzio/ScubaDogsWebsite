@@ -98,24 +98,56 @@ font-weight: 400;
 
 .greenText {
   color: #26A022;
+  font-weight: 500;
 }
 
 .blueText {
   color: #2544B1;
+  font-weight: 500;
 }
 
 .blueLightText {
   color: #2CC3D9;
+  font-weight: 500;
 }
 
 .redText {
-  color: #2CC3D9;
+  color: #FF2A36;
+  font-weight: 500;
 }
 
 .yellowText {
   color: #FA9A3D;
+  font-weight: 500;
 }
 
 .blackText {
   color: black;
+  font-weight: 500;
+}
+
+@media (max-width: 992px){
+  .bottomCol {
+    margin-bottom: 30px!important;
+  }
+}
+
+/* .getDivingBackground {
+  background-image: url(../img/get-diving-bg.jpg) !important;
+   background-size: cover !important;
+   background-position: center !important;
+   background-repeat: no-repeat !important;
+
+} */
+
+
+/* .getOffersBackground {
+  background-color:#002660 ;
+} */
+
+.nfo-icon1 {
+  text-align: center;
+
+    border-radius: 4px;
+        height: 195px;
 }
