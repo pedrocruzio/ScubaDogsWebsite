@@ -27,8 +27,8 @@ body {
   border-color: white !important;
   border-radius: 16px !important;
   padding-top: 5px;
-height: 50px;
-line-height: 1.6em !important;
+  height: 50px;
+  line-height: 1.6em !important;
 }
 
 .MultiCarousel {
@@ -52,12 +52,11 @@ line-height: 1.6em !important;
   text-align: center;
   padding: 10px;
   margin: 10px;
-
   color: #666;
   height: 282px;
   display: flex;
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .pad15 {
@@ -88,12 +87,12 @@ align-items: center;
 
 .lead {
   font-size: 23px;
-color: white;
-font-weight: 400;
+  color: white;
+  font-weight: 400;
 }
 
 .TransparentText {
-
+  color: #002B5F;
 }
 
 .productFirstRow {
@@ -130,17 +129,16 @@ font-weight: 400;
   font-weight: 500;
 }
 
-@media (max-width: 992px){
+@media (max-width: 992px) {
   .bottomCol {
     margin-bottom: 30px!important;
   }
 }
 
- .getDivingBackground {
+.getDivingBackground {
   padding: 0 !important;
-
+  padding-bottom:
 }
-
 
 /* .getOffersBackground {
   background-color:#002660 ;
@@ -148,9 +146,8 @@ font-weight: 400;
 
 .nfo-icon1 {
   text-align: center;
-
-    border-radius: 4px;
-        height: 195px;
+  border-radius: 4px;
+  height: 195px;
 }
 
 .whiteText {
@@ -164,4 +161,98 @@ font-weight: 400;
 .brandIcon {
   height: 100px;
   width: auto !important;
+}
+
+.getOffersSection {
+  margin-top: 50px;
+}
+
+.offersItem {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  width: 100%;
+  height: 400px;
+}
+
+.paragraphOffers {
+  /* height: 100%;
+  width: 100%; */
+  font-size: 1.61em;
+  font-weight: 500;
+  color: white;
+}
+
+.imageBanner {
+  height: 60%;
+  width: 100%;
+  background-image: url("../img/get-50-off-party.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offersCard {
+  background-color: white;
+  height: 40%;
+}
+
+.cardTextContainer {
+  height: 60%;
+  width: 100%;
+}
+
+.cardText {
+  padding-top: 10px;
+}
+
+.cardButtonContainer {
+  background-color: white;
+  height: 40%;
+}
+
+.owl-prev .owl-next {}
+
+.owl-prev {
+  color: white !important;
+  font-size: 30px !important;
+  float: left !important;
+  position: absolute !important;
+  top: 200px;
+  left: -38px;
+}
+
+@media (max-width: 805px) {
+  .owl-prev {
+    top: 178px;
+    left: 8px;
+  }
+}
+
+.owl-next {
+  color: white !important;
+  font-size: 30px !important;
+  float: left !important;
+  position: absolute !important;
+  top: 200px;
+  right: -38px;
+}
+
+@media (max-width: 805px) {
+  .owl-next {
+    top: 178px;
+    right: 8px;
+  }
+}
+
+.partnerImage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scubaDogs {
+  margin-left: 137px;
 }

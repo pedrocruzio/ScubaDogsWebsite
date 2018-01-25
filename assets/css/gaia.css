@@ -1372,6 +1372,7 @@ a,
 }
 .navbar-default .navbar-brand {
   color: #434547;
+  opacity: 1;
 }
 .navbar-default:not(.navbar-transparent) .btn-default:hover {
   color: #c5a47e;
@@ -2601,7 +2602,7 @@ a,
 
 .section-our-team-freebie .container {
   margin-top: 14vh;
-  margin-bottom: 50px;
+  margin-bottom: 14vh;
 }
 
 .card p {
@@ -2669,7 +2670,7 @@ a,
     max-width: 20em;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 991px) {
   .section-we-made-1 .row {
     margin: 0;
   }
@@ -2714,7 +2715,7 @@ a,
     display: inline;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .section-with-hover .project .over-area {
     opacity: 1;
     -webkit-transition: background 0.25s, opacity 0.25s 0.25s;
@@ -2912,6 +2913,7 @@ a,
 
   .navbar-transparent .navbar-brand {
     color: #FFFFFF;
+    opacity: 1;
   }
 }
 @-webkit-keyframes fadeIn {
@@ -3429,7 +3431,7 @@ body {
   }
 }
 /*          Changes for small display      */
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .navbar-transparent {
     padding-top: 0;
     background-color: rgba(0, 0, 0, 0.45);
@@ -3652,7 +3654,7 @@ body {
     transform: translate3d(-280px, 0, 0);
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .footer .social-area.pull-right,
   .footer nav.pull-left {
     text-align: center;
@@ -3704,7 +3706,7 @@ body {
     padding: 0;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .section-faq .box {
     max-width: 480px;
     margin: 0 auto;
@@ -3744,7 +3746,7 @@ body {
     margin-right: 0;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 991px) {
   .section-pricing .row [class^="col-"] {
     padding: 0;
   }
