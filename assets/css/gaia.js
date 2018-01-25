@@ -1564,14 +1564,14 @@ export default StyleSheet.create({
     },
     "section parallax": {
         "width": "100%",
-        "height": 100 * vh,
+        "height": 98 * vh,
         "overflow": "hidden",
         "display": "block",
         "position": "relative"
     },
     "section static-image": {
         "width": "100%",
-        "height": 100 * vh,
+        "height": 98 * vh,
         "overflow": "hidden",
         "display": "block",
         "position": "relative"
@@ -2664,17 +2664,17 @@ export default StyleSheet.create({
     },
     "section-header h1": {
         "fontWeight": "200",
-        "fontSize": 3.6,
+        "fontSize": 62,
         "textShadow": "-2px 2px 0px rgba(0, 0, 0, 0.3), -2px 4px 2px rgba(0, 0, 0, 0.1)"
     },
     "section-header-blog h1": {
         "fontWeight": "200",
-        "fontSize": 3.6,
+        "fontSize": 62,
         "textShadow": "-2px 2px 0px rgba(0, 0, 0, 0.3), -2px 4px 2px rgba(0, 0, 0, 0.1)"
     },
     "section-presentation-page h1": {
         "fontWeight": "200",
-        "fontSize": 3.6,
+        "fontSize": 62,
         "textShadow": "-2px 2px 0px rgba(0, 0, 0, 0.3), -2px 4px 2px rgba(0, 0, 0, 0.1)"
     },
     "section-header h5": {
