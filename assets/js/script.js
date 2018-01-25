@@ -4,7 +4,7 @@ $("#owl-demo").owlCarousel({
 
 $('.partners').owlCarousel({
   loop: true, margin: 10,
-  // autoplay: true,
+  autoplay: true,
   autoplayHoverPause: true,
   responsiveClass: true,
   responsive: {
