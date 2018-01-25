@@ -1523,7 +1523,7 @@ export default StyleSheet.create({
         "paddingLeft": 0
     },
     "section title-area": {
-        "maxWidth": 760,
+        "maxWidth": 1440,
         "marginTop": 0,
         "marginRight": "auto",
         "marginBottom": 70,
